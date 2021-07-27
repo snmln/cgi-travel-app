@@ -1,0 +1,15 @@
+.header__container{
+    background-color: #335F08;
+    padding: 1rem;
+    color: white;
+    object-fit: contain;
+    height: 100px;
+    position: relative;
+}
+
+.header__options{
+    font-family: 'Monda', sans-serif;
+position: absolute;
+bottom: 0;
+font-weight: 800;
+}
