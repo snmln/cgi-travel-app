@@ -1,0 +1,13 @@
+.card__list__container{
+    margin-bottom: 85px;
+}
+
+.timline__agrigation{
+    background-color: #E6E9ED;
+    padding: .5rem 1rem;
+    font-family: "Monda", sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: .8rem;
+    z-index: 99;
+}

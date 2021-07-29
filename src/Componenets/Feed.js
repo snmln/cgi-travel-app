@@ -1,9 +1,12 @@
 import React from 'react'
-
+import CardList from "./CardList";
+import Navigation from "./Navigation";
 function Feed() {
     return (
         <div>
-            <h1>hello from Feed</h1>
+            {/* Hosting larger orgnaizational components */}
+            <Navigation />
+            <CardList />
         </div>
     )
 }

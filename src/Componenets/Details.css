@@ -1,0 +1,99 @@
+body{background-color: #E7E9ED;
+}
+
+.details__container{
+background-color: #E7E9ED;
+padding-bottom: 2rem;
+}
+.flagship__image{
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+    filter: drop-shadow(0 0 0.75rem gray);
+padding-bottom: 1rem;
+}
+.details__content{
+    padding: 1rem;
+    height: 100%;
+    position: relative;
+
+}
+
+.details__headshot {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+  display: inline-block;
+margin-right: .625rem;
+  }
+
+  p{
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    line-height: 1.85rem;
+  }
+
+  .poster__name{
+    font-family: "Monda", sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: black;
+    display: inline;
+    font-size: .85rem;
+    vertical-align: top;
+  }
+  .bookmark {
+    display:inline-block;
+    top:0;
+    float: right;
+    }
+
+    .poster__information{
+      padding-bottom: 1rem;
+    }
+    .details__location{
+      text-transform: uppercase;
+      font-weight: 800;
+      color: black;
+      padding: 0.25rem 1.45rem;
+      background-color: #ffd600;
+      font-family: "Monda", sans-serif;
+      transform: skewX(-35deg);
+      font-size: .9rem;
+      z-index: 98;
+      margin-bottom: 1.5rem;
+      display: inline-block;
+      align-self: flex-end; 
+ }
+
+    .details__location .fix{  
+      transform: skewX(35deg) !important;
+    }
+
+    .details__flagship{
+      height: 250px;
+      display: flex;
+      justify-content: center; 
+
+    }
+
+    .details__date{
+      color: #666666;
+      font-family: "Monda", sans-serif;
+      text-transform: uppercase;
+      font-weight: 800;
+      font-size: .75rem;
+    }
+.poster__informaiton{
+  vertical-align: top;
+  display: inline-block;
+}
+.spinner__container{
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+.spinner{
+  flex:auto;
+  max-width: 100px;
+}
