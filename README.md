@@ -7,7 +7,7 @@ For this project I utilized the full 6 hours of time allotted. I decided to proc
 
 The architecture of the prototype is built around the data.js file that housed all data for the travel destinations. Utilizing React's props and hooks functionality that data is rendered within the CardList.js and Card.js components. The Details page are then dynamically rendered using the Key identifier to retrieve the specific object associated with that element. 
 
-#### To view prototype
+### To view prototype
 ---
 1. **Clone repo** to local machine
 2. From within project folder structure **run npm install** to install all dependencies.
