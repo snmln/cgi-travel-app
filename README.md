@@ -15,4 +15,4 @@ The architecture of the prototype is built around the data.js file that housed a
 
 ## Final Product Development Recommendations
 
-Looking at the potential expansion of this application I would first recommend utilizing a UI framework. This will improve efficiency and consistency across multiple developers. With the architecture of the application I would recommend Context, data layer, component/template structure to improve future data handling. With the current functionality I believe also shifting to a different framework like Angular might provide more component flexibility in the future. 
+Looking at the potential expansion of this application I would first recommend utilizing a Component Library. This will improve efficiency and consistency across multiple developers. With the architecture of the application I would recommend Context, data layer, component/template structure to improve future data handling. With the current functionality I believe also shifting to a different framework like Angular might provide more component flexibility in the future. 
